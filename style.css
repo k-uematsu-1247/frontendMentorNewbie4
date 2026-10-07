@@ -1,0 +1,153 @@
+:root {
+    --Orange-500: hsl(25, 97%, 53%);
+    --White: hsl(0, 100%, 100%);
+    --Grey-500: hsl(217, 12%, 63%);
+    --Grey-900: hsl(213, 19%, 18%);
+    --Grey-950: hsl(216, 12%, 8%);
+}
+
+html {
+    font-size: 0.9375rem;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    color: var(--Grey-500);
+    background-color: var(--Grey-950);
+    font-family: Overpass;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    align-items: center;
+    width: 90%;
+    max-width: 340px;
+    min-height: 355px;
+    background-color: color-mix(in hsl, var(--Grey-950), var(--Grey-900));
+    border-radius: 30px;
+    margin: 0.5em;
+    padding: 2em;
+}
+
+.icon {
+    display: flex;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--Grey-900);
+    border-radius: 50%;
+}
+
+.img-star {
+    object-fit: scale-down;
+}
+
+.card-title {
+    display: block;
+    color: var(--White);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+fieldset {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+legend,
+input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+
+label {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--Grey-900);
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+label:hover,
+label:has(input:focus-visible) {
+    background-color: var(--Orange-500);
+    color: var(--Grey-950);
+}
+
+label:has(input:checked) {
+    background-color: var(--White);
+    color: var(--Grey-950);
+}
+
+.submit {
+    width: 100%;
+    background-color: var(--Orange-500);
+    color: var(--Grey-950);
+    padding: 1em;
+    border: none;
+    border-radius: 9999px;
+    font-family: Overpass;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: var(--White);
+    color: var(--Grey-950);
+}
+
+.card-thankyou {
+    text-align: center;
+}
+
+.img-thankyou {
+    width: 50%;
+    object-fit: scale-down;
+}
+
+.chose {
+    width: fit-content;
+    background-color: var(--Grey-900);
+    color: var(--Orange-500);
+    border-radius: 9999px;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+}
+
+.hidden {
+    display: none;
+}
