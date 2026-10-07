@@ -16,7 +16,7 @@ body {
     margin: 0;
     color: var(--Grey-500);
     background-color: var(--Grey-950);
-    font-family: Overpass;
+    font-family: "Overpass", sans-serif;
 }
 
 img {
@@ -36,8 +36,8 @@ main {
     display: grid;
     align-items: center;
     width: 90%;
-    max-width: 340px;
-    min-height: 355px;
+    max-width: 23rem;
+    min-height: 24rem;
     background-color: color-mix(in hsl, var(--Grey-950), var(--Grey-900));
     border-radius: 30px;
     margin: 0.5em;
