@@ -29,9 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: https://github.com/k-uematsu-1247/frontendMentorNewbie4
+- Live Site URL: https://frontendmentornewbie4.onrender.com/
 ## My process
 
 ### Built with
@@ -93,4 +92,4 @@ During this project, I collaborated effectively with an AI assistant to reason t
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ k-uematsu-1247](https://www.frontendmentor.io/profile/k-uematsu-1247)
